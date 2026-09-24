@@ -1,0 +1,29 @@
+
+
+PROJECT TITLE
+LEGALEASE – AI-POWERED LEGAL DOCUMENT GENERATOR
+
+1. DEMONSTRATION OVERVIEW
+
+The project demonstration shows how LegalEase collects user details, generates legal document content using AI and provides the final document in different formats.
+
+2. DEMONSTRATION PROCESS
+
+• Open the LegalEase application.
+• Enter the required document details.
+• Select the required document type.
+• Submit the information.
+• The system processes the request through the backend.
+• Gemini AI generates the legal document content.
+• The generated content is displayed for review and editing.
+• Download the document in the required format.
+
+3. DEMONSTRATION OUTPUT
+
+The system provides:
+
+• Generated legal document
+• Editable content
+• HTML preview
+• DOCX download
+• PDF download
