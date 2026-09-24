@@ -1,0 +1,64 @@
+
+
+PROJECT TITLE
+LEGALEASE – AI-POWERED LEGAL DOCUMENT GENERATOR
+
+1. SYSTEM DESIGN
+
+LegalEase follows a layered architecture consisting of a frontend, backend, AI core and document formatting modules.
+
+2. FRONTEND
+
+The frontend is developed using Streamlit.
+
+It provides:
+
+• User interface
+• Input fields
+• User interaction
+• Document preview
+• Editing options
+• File download options
+
+3. BACKEND
+
+The backend is developed using FastAPI.
+
+It handles:
+
+• API requests
+• Request validation
+• Document generation requests
+• Communication with the AI core
+
+4. AI CORE
+
+Google Gemini is used as the AI generation core.
+
+It processes the user's information and generates structured legal document content based on the selected document type and provided details.
+
+5. DOCUMENT FORMATTING
+
+The system converts the generated AI text into different formats:
+
+• DOCX
+• PDF
+• HTML preview
+
+6. SYSTEM FLOW
+
+User Input
+↓
+Streamlit Frontend
+↓
+FastAPI Backend
+↓
+Gemini AI Core
+↓
+Document Formatting
+↓
+DOCX / PDF / HTML Output
+
+7. DESIGN OBJECTIVE
+
+The design provides an interactive workflow for generating, editing and exporting customized legal documents.
