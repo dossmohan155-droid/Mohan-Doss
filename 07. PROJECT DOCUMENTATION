@@ -1,0 +1,67 @@
+
+
+PROJECT TITLE
+LEGALEASE – AI-POWERED LEGAL DOCUMENT GENERATOR
+
+1. PROJECT OVERVIEW
+
+LegalEase is an AI-powered platform designed to simplify the creation of customizable, editable and professionally formatted legal documents.
+
+2. MAIN FEATURES
+
+• AI-powered legal document generation
+• Customizable document content
+• Editable generated text
+• Document preview
+• DOCX export
+• PDF export
+• HTML preview
+
+3. SUPPORTED SCENARIOS
+
+• Employment contracts
+• Non-Disclosure Agreements (NDA)
+• Residential lease agreements
+
+4. TECHNOLOGY STACK
+
+• Streamlit – Frontend
+• FastAPI – Backend
+• Google Gemini – AI generation
+• Python – Core programming
+• Python-docx – DOCX formatting
+• FPDF – PDF generation
+
+5. WORKFLOW
+
+User enters details
+↓
+Input validation
+↓
+AI prompt construction
+↓
+Gemini generates legal content
+↓
+Formatting and preview
+↓
+Document export
+
+6. PROJECT BENEFITS
+
+• Saves time in document creation.
+• Provides structured legal documents.
+• Allows customization and editing.
+• Supports multiple document formats.
+• Provides a simple interactive workflow.
+
+7. FUTURE ENHANCEMENTS
+
+• Expand legal document templates.
+• Improve input and clause validation.
+• Add more testing for edge cases.
+• Strengthen privacy and security controls.
+• Provide a review step by a qualified legal professional.
+
+8. CONCLUSION
+
+LegalEase demonstrates how Generative AI can be integrated with a frontend, backend and
