@@ -1,0 +1,56 @@
+
+
+PROJECT TITLE
+LEGALEASE – AI-POWERED LEGAL DOCUMENT GENERATOR
+
+1. TESTING OVERVIEW
+
+Testing is performed to verify the functionality and reliability of the LegalEase system across different user inputs and document generation scenarios.
+
+2. TESTING OBJECTIVES
+
+• Verify user input handling.
+• Check legal document generation.
+• Validate the Gemini AI integration.
+• Check document formatting and export.
+• Test different input combinations and edge cases.
+
+3. TEST CASES
+
+Test Case 1
+Input: Employment contract details
+Expected Result: A structured employment contract should be generated.
+
+Test Case 2
+Input: NDA details
+Expected Result: A structured Non-Disclosure Agreement should be generated.
+
+Test Case 3
+Input: Residential lease details
+Expected Result: A formatted residential lease agreement should be generated.
+
+4. FUNCTIONAL TESTING
+
+The system is tested from user input through AI generation and final document output to verify that each stage works correctly.
+
+5. OUTPUT TESTING
+
+The generated document is checked for:
+
+• Proper structure
+• Required sections
+• Correct formatting
+• Editable content
+• DOCX, PDF and HTML output
+
+6. API TESTING
+
+The FastAPI endpoints and Gemini API integration are tested with different input combinations to verify successful document generation.
+
+7. TESTING RESULT
+
+Testing helps verify the end-to-end functionality of the LegalEase workflow and identify issues related to inputs, AI generation, formatting and API communication.
+
+8. CONCLUSION
+
+The testing and QA stage ensures that the LegalEase system is checked across diverse inputs and edge cases before deployment.
