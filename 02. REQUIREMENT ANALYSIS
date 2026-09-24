@@ -1,0 +1,60 @@
+
+
+PROJECT TITLE
+LEGALEASE – AI-POWERED LEGAL DOCUMENT GENERATOR
+
+1. FUNCTIONAL REQUIREMENTS
+
+• Collect required details from the user.
+• Accept information such as document type, parties, terms and dates.
+• Generate structured legal documents using AI.
+• Allow users to edit the generated document.
+• Provide document download options.
+
+2. INPUT REQUIREMENTS
+
+The system collects:
+
+• Document type
+• Involved parties
+• Terms and conditions
+• Effective date
+• Other required document details
+
+3. OUTPUT REQUIREMENTS
+
+The system provides:
+
+• Structured legal documents
+• Editable content
+• DOCX output
+• PDF output
+• HTML preview
+
+4. TECHNICAL REQUIREMENTS
+
+• Python
+• FastAPI
+• Streamlit
+• Google Gemini API
+• Python-docx
+• FPDF
+• Pillow
+• Requests
+• Python-dotenv
+
+5. USER REQUIREMENTS
+
+The system should provide a simple interface where users can enter details, generate documents and edit or download the results.
+
+6. NON-FUNCTIONAL REQUIREMENTS
+
+• Easy to use
+• Accurate formatting
+• Reliable document generation
+• Secure handling of sensitive legal information
+• Fast response and document processing
+
+7. REQUIREMENT SUMMARY
+
+LegalEase requires a Streamlit frontend, FastAPI backend and Gemini AI integration to generate and format customizable legal documents.
