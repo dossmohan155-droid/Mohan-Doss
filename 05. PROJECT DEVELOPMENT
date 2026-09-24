@@ -1,0 +1,50 @@
+
+
+PROJECT TITLE
+LEGALEASE – AI-POWERED LEGAL DOCUMENT GENERATOR
+
+1. DEVELOPMENT OVERVIEW
+
+LegalEase is developed to generate structured and customizable legal documents using Generative AI.
+
+2. DEVELOPMENT PROCESS
+
+• Collect legal document details from the user.
+• Validate the input data.
+• Construct a structured AI prompt.
+• Send the prompt to the Gemini AI model.
+• Receive the generated legal document content.
+• Format the generated content into different document formats.
+
+3. INPUT DATA
+
+The system processes:
+
+• Document type
+• Involved parties
+• Terms and conditions
+• Effective dates
+
+4. BACKEND DEVELOPMENT
+
+FastAPI is used to handle API requests and communicate with the Gemini AI generation core.
+
+5. AI DEVELOPMENT
+
+The Gemini integration generates legal document content using structured prompts based on the user's provided details.
+
+6. DOCUMENT FORMATTING
+
+The generated content is converted into:
+
+• DOCX
+• PDF
+• HTML preview
+
+7. FRONTEND DEVELOPMENT
+
+Streamlit provides the user interface for entering details, editing generated content and downloading documents.
+
+8. DEVELOPMENT RESULT
+
+The developed system provides a workflow for generating, editing and exporting customized legal documents.
